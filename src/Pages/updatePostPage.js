@@ -7,7 +7,7 @@ import { GreenButton } from '../Components/UI/button';
 import PostSection from '../Components/UI/postSection';
 import TagInput from '../Components/UI/tagInput';
 import TextEditor from '../Components/Post/textEditor';
-import { updatePost } from '../Components/API/Post/fetchPost';
+import { updatePost } from '../API/Post/fetchPost';
 
 const TitleInput = styled.input`
   border: 2px solid #c7d36f;

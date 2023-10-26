@@ -10,7 +10,7 @@ import PostSection from '../Components/UI/postSection';
 import TagInput from '../Components/UI/tagInput';
 import { userData } from '../Recoil/atoms';
 import TextEditor from '../Components/Post/textEditor';
-import { createPost } from '../Components/API/Post/fetchPost';
+import { createPost } from '../API/Post/fetchPost';
 
 const TitleInput = styled.input`
   border: 2px solid #c7d36f;

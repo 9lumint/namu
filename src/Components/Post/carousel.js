@@ -8,7 +8,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import CarouselItem from './carouselItem';
 import { GreenButton } from '../UI/button';
 import { SkeletonCarousel } from '../UI/skeletonCarousel';
-import { getPostsByTags } from '../API/Post/fetchPost';
+import { getPostsByTags } from '../../API/Post/fetchPost';
 
 const CarouselWrapper = styled.article`
   width: calc(90%);

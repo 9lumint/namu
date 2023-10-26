@@ -16,7 +16,7 @@ import {
   getSearchedTags,
   getUserTags,
   updateUserTags
-} from '../Components/API/Tag/fetchTag';
+} from '../API/Tag/fetchTag';
 
 const EditTagPageContainer = styled.article`
   width: 100%;

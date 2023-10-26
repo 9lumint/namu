@@ -7,8 +7,8 @@ import { useRecoilValue } from 'recoil';
 import RequestListModal from '../UI/requestListModal';
 import { SkeletonMyPageItem } from '../UI/skeletonMyPageItem';
 import { userData } from '../../Recoil/atoms';
-import { getUserData } from '../API/Login/fetchUser';
-import { getRequestById } from '../API/Request/fetchRequest';
+import { getUserData } from '../../API/Login/fetchUser';
+import { getRequestById } from '../../API/Request/fetchRequest';
 
 const ReqListContainer = styled.article`
   display: flex;

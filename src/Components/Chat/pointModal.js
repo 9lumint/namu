@@ -5,7 +5,7 @@ import { useSetRecoilState } from 'recoil';
 import Modal from '../UI/modal';
 import { WhiteButton } from '../UI/button';
 import { isStarted } from '../../Recoil/atoms';
-import { givePoint } from '../API/Chat/fetchChat';
+import { givePoint } from '../../API/Chat/fetchChat';
 
 const ContentSection = styled.section`
   display: flex;

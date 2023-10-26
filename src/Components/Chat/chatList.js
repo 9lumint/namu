@@ -7,8 +7,8 @@ import { useRecoilValue, useSetRecoilState } from 'recoil';
 import { profiles } from '../../profiles';
 import { SkeletonChatSectionItem } from '../UI/skeletonChatSectionItem';
 import { userData, roomsData } from '../../Recoil/atoms';
-import { getChatroomById } from '../API/Chat/fetchChat';
-import { getUserData } from '../API/Login/fetchUser';
+import { getChatroomById } from '../../API/Chat/fetchChat';
+import { getUserData } from '../../API/Login/fetchUser';
 
 const ChatListContainer = styled.section`
   display: flex;

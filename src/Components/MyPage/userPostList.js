@@ -5,8 +5,8 @@ import { useQuery } from 'react-query';
 import { useRecoilValue } from 'recoil';
 import { SkeletonMyPageItem } from '../UI/skeletonMyPageItem';
 import { userData } from '../../Recoil/atoms';
-import { getUserData } from '../API/Login/fetchUser';
-import { getPostById } from '../API/Post/fetchPost';
+import { getUserData } from '../../API/Login/fetchUser';
+import { getPostById } from '../../API/Post/fetchPost';
 
 const UserPostContainer = styled.section`
   display: flex;

@@ -15,7 +15,7 @@ import {
   handleSendChat,
   getChatById,
   getChatroomById
-} from '../API/Chat/fetchChat';
+} from '../../API/Chat/fetchChat';
 
 const ChatRoomContainer = styled.article`
   display: flex;

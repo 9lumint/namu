@@ -13,7 +13,7 @@ import PostSection from '../Components/UI/postSection';
 import RequestModal from '../Components/Post/requestModal';
 import { db } from '../firebase';
 import { userData } from '../Recoil/atoms';
-import { getPost, deletePost } from '../Components/API/Post/fetchPost';
+import { getPost, deletePost } from '../API/Post/fetchPost';
 import { SkeletonPost } from '../Components/UI/skeletonPost';
 
 const ContentContainer = styled.article`

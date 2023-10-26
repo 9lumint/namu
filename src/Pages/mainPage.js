@@ -4,7 +4,7 @@ import PostSection from '../Components/UI/postSection';
 import { SkeletonCarousel } from '../Components/UI/skeletonCarousel';
 import { userData } from '../Recoil/atoms';
 import Carousel from '../Components/Post/carousel';
-import { getUserTags } from '../Components/API/Tag/fetchTag';
+import { getUserTags } from '../API/Tag/fetchTag';
 
 const MainPage = () => {
   const currentUserData = useRecoilValue(userData);

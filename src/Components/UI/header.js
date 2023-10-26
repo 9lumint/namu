@@ -10,7 +10,7 @@ import { signOut } from 'firebase/auth';
 import { profiles } from '../../profiles';
 import { auth, db } from '../../firebase';
 import { userData, isLoginState, currentBadge } from '../../Recoil/atoms';
-import { addUser, handleGoogleLogin } from '../API/Login/fetchUser';
+import { addUser, handleGoogleLogin } from '../../API/Login/fetchUser';
 
 const HeaderContainer = styled.header`
   height: 50px;

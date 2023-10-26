@@ -7,10 +7,7 @@ import UserInfo from '../Components/MyPage/userInfo';
 import UserPostList from '../Components/MyPage/userPostList';
 import UserRequestList from '../Components/MyPage/userRequestList';
 import UserTitle from '../Components/MyPage/userTitle';
-import {
-  updateUserBadges,
-  updateUserLevel
-} from '../Components/API/Login/fetchUser';
+import { updateUserBadges, updateUserLevel } from '../API/Login/fetchUser';
 
 const MyPageContainer = styled.section`
   display: flex;

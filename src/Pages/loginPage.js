@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { GreenButton } from '../Components/UI/button';
-import { handleGoogleLogin } from '../Components/API/Login/fetchUser';
+import { handleGoogleLogin } from '../API/Login/fetchUser';
 
 const LoginContainer = styled.section`
   display: flex;

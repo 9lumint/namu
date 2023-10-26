@@ -5,7 +5,7 @@ import { useMutation } from 'react-query';
 import { serverTimestamp } from 'firebase/firestore';
 import { WhiteButton } from '../UI/button';
 import Modal from '../UI/modal';
-import { createRequest } from '../API/Request/fetchRequest';
+import { createRequest } from '../../API/Request/fetchRequest';
 
 const ContentContainer = styled.article`
   display: flex;

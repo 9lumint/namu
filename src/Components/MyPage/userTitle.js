@@ -10,7 +10,7 @@ import {
   getUserData,
   updateUserCurrentBadge,
   badges
-} from '../API/Login/fetchUser';
+} from '../../API/Login/fetchUser';
 
 const UserTitleContainer = styled.article`
   display: flex;

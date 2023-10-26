@@ -13,7 +13,7 @@ import {
   where,
   runTransaction
 } from 'firebase/firestore';
-import { db } from '../../../firebase';
+import { db } from '../../firebase';
 
 export const createPost = async (uid, postData) => {
   try {

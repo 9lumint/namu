@@ -1,5 +1,5 @@
 import { doc, setDoc, updateDoc, getDoc, onSnapshot } from 'firebase/firestore';
-import { db } from '../../../firebase';
+import { db } from '../../firebase';
 
 export const createRequest = async (
   docId,

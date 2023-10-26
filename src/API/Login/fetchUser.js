@@ -5,7 +5,7 @@ import {
   setPersistence,
   browserSessionPersistence
 } from 'firebase/auth';
-import { db, auth } from '../../../firebase';
+import { db, auth } from '../../firebase';
 
 export const badges = [
   { title: '나무 심기', description: '나무 첫 걸음' },

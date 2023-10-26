@@ -5,7 +5,7 @@ import PostSection from '../Components/UI/postSection';
 import SearchInput from '../Components/UI/searchInput';
 import SearchPostResult from '../Components/Search/searchList';
 import SearchItem from '../Components/Search/searchItem';
-import { searchPosts } from '../Components/API/Post/fetchPost';
+import { searchPosts } from '../API/Post/fetchPost';
 
 const GuideWrapper = styled.section`
   display: flex;
